@@ -5,6 +5,9 @@
 로컬 웹앱입니다. 릴스 콘셉트 영상과 TradingAgents 논문(멀티 에이전트 금융
 의사결정 프레임워크)의 구조에서 착안했습니다.
 
+![PIXEL TRADING FLOOR 화면](docs/images/가이드-v1.2-플로어.png)
+
+
 의존성 0의 Node(24) 내장 HTTP 서버가 무료 공개 API로 시장 데이터를 모으고,
 에이전트별 `claude -p --model opus` 프로세스를 스폰해 받은 JSON 응답을
 SSE(Server-Sent Events)로 프론트에 방송합니다. 화면은 단일 페이지 픽셀아트
